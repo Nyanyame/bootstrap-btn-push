@@ -22,7 +22,7 @@ Top to Bottom: `<a class="btn btn-push btn-push-white btn-push-top" href="#">Top
 Bottom to Top: `<a class="btn btn-push btn-push-white btn-push-bottom" href="#">Bottom to Top</a>`
 
 ## Size
-**Default: Normal** (No include btn-{size} class)
+**Default: Normal** (No include btn-[size] class)
 
 Extra Small: `<a class="btn btn-push btn-push-black btn-xs" href="#">X-Small Button</a>`
 
@@ -31,3 +31,16 @@ Small: `<a class="btn btn-push btn-push-black btn-sm" href="#">Small Button</a>`
 Normal: `<a class="btn btn-push btn-push-black" href="#">Default Button</a>`
 
 Large: `<a class="btn btn-push btn-push-black btn-lg" href="#">Large Button</a>`
+
+## Custom Color
+**You can make background-image here http://png-pixel.com/**
+
+<pre>.btn.btn-push.btn-push-[color_name] {
+	background-image: url([input data:image-url]);
+	background-position: top left;
+	background-size: 0% 100%;
+	-webkit-transition: ease .5s all;
+	transition: ease .5s all;
+	color: [text_color];
+	border: 1px solid [color_hex or rgba];
+}</pre>
