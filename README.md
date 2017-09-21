@@ -1,7 +1,7 @@
 # bootstrap-btn-push
 Bootstrap 3.3.7 / Background Push-Slide Effect Button
 
-Examples: https://jsfiddle.net/Nyanyame/ggjxhyqw/5/
+Examples: https://jsfiddle.net/Nyanyame/ggjxhyqw/6/
 
 ## Default Class
 **Required**
