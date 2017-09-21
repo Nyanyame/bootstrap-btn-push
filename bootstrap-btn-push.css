@@ -1,0 +1,64 @@
+.btn.btn-push {
+	background-repeat: no-repeat;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-webkit-transition: ease .5s all;
+	transition: ease .5s all;
+}
+
+.btn.btn-push:hover,
+.btn.btn-push:focus {
+	background-size: 100% 100%;
+}
+
+.btn.btn-push.btn-push-black {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=);
+	background-position: top left;
+	background-size: 0% 100%;
+	-webkit-transition: ease .5s all;
+	transition: ease .5s all;
+	color: #000;
+	border: 1px solid #000;
+}
+
+.btn.btn-push.btn-push-black:hover,
+.btn.btn-push.btn-push-black:focus {
+	color: #FFF;
+	background-size: 100% 100%;
+}
+
+.btn.btn-push.btn-push-white {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=);
+	background-position: top left;
+	background-size: 0% 100%;
+	-webkit-transition: ease .5s all;
+	transition: ease .5s all;
+	color: #FFF;
+	border: 1px solid #FFF;
+}
+
+.btn.btn-push.btn-push-white:hover,
+.btn.btn-push.btn-push-white:focus {
+	color: #000;
+	background-size: 100% 100%;
+}
+
+.btn.btn-push.btn-push-top {
+	background-position: top left;
+	background-size: 100% 0%;
+}
+
+.btn.btn-push.btn-push-bottom {
+	background-position: bottom left;
+	background-size: 100% 0%;
+}
+
+.btn.btn-push.btn-push-left {
+	background-position: top left;
+	background-size: 0% 100%;
+}
+
+.btn.btn-push.btn-push-right {
+	background-position: top right;
+	background-size: 0% 100%;
+}
